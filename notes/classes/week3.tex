@@ -61,3 +61,44 @@ For example, in the exercise done in class, instead of having the unique rule of
       Suppose $F : I \to {yes, no}$ is a decision problem that lies in NP, and suppose that every problem in NP can be polynomially transformed to F . Then, F is said to be NP-complete
     \end{minipage}
 }
+\\ \\ 
+An algorithm can solve all NP problem efficiently if it can solve an NP-complete problem efficiently. If it solves an NP-complete problem, that means it is able to transform a problem into an NP problem.
+
+\section{Friday 09/06/2024}
+I did not attend this day so just notes over the slides.
+\subsection{NP-hard}
+\subsubsection{Definitions}
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        We say that a Turing machine can use $F$ as an \textbf{oracle} if $M$ is augmented with the following capability: $M$ can compute $F(x)$ from $x$ in one step.
+    \end{minipage}
+}
+\\ \\ 
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        We say that a problem $G$ is \textbf{Cook-reducible} to problem $F$ (aka, polynomial-time Turing reducible) if $G$ can be computed in polynomial time by a Turing machine that uses $F$ as an oracle.
+    \end{minipage}
+}
+\\ \\ 
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        A problem $F$ is said to be \textbf{NP-hard} if an NP-complete problem is Cook-reducible to F.
+    \end{minipage}
+}
+\\ \\ 
+\subsubsection{Quadratic problem}
+\textbf{General quadratic programming:}
+\begin{itemize}
+  \item Given symmetric matrix $ H \in \mathbb{R}^{n x n}, \text{ matrix } A \in \mathbb{R}^{m x n}, \text{ and vectors } \textbf{b,c} \in \mathbb{R}^n $
+  \item Solve
+\end{itemize}
+
+\begin{equation}
+  \label{GQP}\tag{GQP}
+  \begin{aligned}
+    \min \textbf{x}^T H \textbf{x} + \textbf{c}^T \textbf{x} \\
+    s.t. A \textbf{x} \geq \textbf{b}
+  \end{aligned}
+\end{equation}
+
+

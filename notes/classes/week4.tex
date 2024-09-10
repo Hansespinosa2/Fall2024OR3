@@ -1,0 +1,129 @@
+\section{Monday 09/09/2024}
+I also did not attend today so these are slide notes
+\subsection{Nonlinear Programming Basic Concepts}
+\subsubsection{Nonlinear problem formulation}
+\begin{equation}
+  \begin{aligned}
+    \min_x f(\textbf{x}) \\
+    \text{s.t. } h(\textbf{x}) = 0 \\
+    g(\textbf{x}) \leq \textbf{0}
+  \end{aligned}
+\end{equation}
+where $f : \mathbb{R}^n \to  \mathbb{R}, h : \mathbb{R}^n \to \mathbb{R}^{m_1}, \text{ and } g : \mathbb{R}^n \to \mathbb{R}^{m_2} $
+
+
+\begin{itemize}
+  \item Objective function, cost function, disutility function
+  \item Inequality constraints, non-negativity constraints
+  \item Equality constraints
+  \item Feasible region, feasible solution
+  \item Optimal solution, minimal solution
+  \item Unconstrained problems
+\end{itemize}
+
+\subsubsection{Global and local solutions definitions}
+Let $\Omega := {\textbf{x} : g(\textbf{x} \leq \textbf{0}, h(\textbf{x} = \textbf{0}))}$
+\\ \\ 
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        A feasible solution $\textbf{x}^* \in \Omega$ is said to be globally minimal if and only if $f(\textbf{x}^*) \leq f(\textbf{x}) \forall \textbf{x} \in \Omega$
+    \end{minipage}
+}
+\\ \\ 
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        A feasible solution $\textbf{x}^* \in \Omega$ is said to be locally minimal if and only if $f(\textbf{x}^*) \leq f(\textbf{x}) \forall \textbf{x} \in \Omega \cap N(\textbf{x}^*, \epsilon)$ for some $\epsilon > 0 $. Here, $N(\textbf{x}^*, \epsilon) = \{\textbf{x} : ||\textbf{x}^* - \textbf{x} \leq \epsilon||\}$
+    \end{minipage}
+}
+In other words, a global solution is global if it is the minimum of all values in the set. It is locally minimal if it is less than all points in a certain radius defined arbitarily by $\epsilon$.
+\subsection{Necessary conditions of optimality}
+\subsubsection{Gradients}
+Consider a function $f \mathbb{R}^n \to \mathbb{R}$, then the gradient of $f$ is given as 
+
+\begin{align}
+  \nabla f(\textbf{x}) := 
+  \begin{bmatrix}
+     \frac{d f(\textbf{x})}{d x_1} \\ 
+     \frac{d f(\textbf{x})}{d x_2} \\ 
+     \vdots \\
+     \frac{d f(\textbf{x})}{d x_n}
+  \end{bmatrix}
+\end{align}
+
+Finding gradient of function $f(x_1, x_2) = 0.5x_1^2 + 0.5x_2^2$ at (1,-1)
+\begin{gather}
+  \frac{d f(\textbf{x})}{d x_1} = x_1 \\
+  \frac{d f(\textbf{x})}{d x_2} = x_2
+\end{gather}
+
+\begin{align}
+  \nabla f(\textbf{x}) = 
+  \begin{bmatrix}
+    1 \\
+    -1
+  \end{bmatrix}
+\end{align}
+
+\subsubsection{Examples}
+a. 
+\begin{align}
+  \nabla 2 x_1^2 + 2 x_2^2 = 
+  \begin{bmatrix}
+     4x_1 \\
+     4x_2
+  \end{bmatrix}
+\end{align}
+Solving for $\nabla f = 0$,
+\begin{align} 
+  \textbf{x}^* = 
+  \begin{bmatrix}
+    0 \\
+    0
+  \end{bmatrix}
+\end{align}
+\begin{figure}[htbp]
+  \centerline{\includegraphics[width=0.75\textwidth]{images/gradient_ex1.png}}
+  \caption{Graph of $2 x_1^2 + 2 x_1^2$ with solution at $(x_1,x_2) = (0,0)$}
+  \label{fig:gradient_ex1}
+\end{figure}
+\\ \\ 
+b. 
+\begin{equation}
+  \frac{d \sin(x)}{d x} = \cos(x) 
+\end{equation}
+Solution to this problem is the curve $\cos(x)$
+
+\begin{figure}[htbp]
+  \centerline{\includegraphics[width=0.75\textwidth]{images/gradient_ex2.png}}
+  \caption{Graph of sin(x) and the solution cos(x)}
+  \label{fig:gradient_ex2}
+\end{figure}
+
+c. 
+\begin{equation}
+  \frac{d x^3}{d x} = 3x^2 
+\end{equation}
+
+Solution to this problem is the curve $3x^2$
+\begin{figure}[htbp]
+  \centerline{\includegraphics[width=0.75\textwidth]{images/gradient_ex3.png}}
+  \caption{Graph of $x^3$ and it's solution $3x^2$}
+  \label{fig:gradient_ex3}
+\end{figure}
+
+d. 
+$(x-3)(x^2-1)(x+2)$ is already in it's factored form so the solutions are:
+\begin{itemize}
+  \item x = 3
+  \item x = 1
+  \item x = -1
+  \item x = -2
+\end{itemize}  
+
+\begin{figure}[htbp]
+  \centerline{\includegraphics[width=0.75\textwidth]{images/gradient_ex4.png}}
+  \caption{Graph of $(x-3)(x^2-1)(x+2)$ and it's solutions $x = 1,-1,3,-2$}
+  \label{fig:gradient_ex4}
+\end{figure}
+
+\section{Wednesday 09/11/2024}

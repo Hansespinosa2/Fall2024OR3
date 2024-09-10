@@ -7,3 +7,15 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Turing machine}{4}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}P-problem}{5}{subsubsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.3}NP-complete}{5}{subsubsection.3.1.3}%
+\contentsline {section}{\numberline {4}Friday 09/06/2024}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}NP-hard}{5}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Definitions}{5}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Quadratic problem}{6}{subsubsection.4.1.2}%
+\contentsline {section}{\numberline {5}Monday 09/09/2024}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Nonlinear Programming Basic Concepts}{7}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Nonlinear problem formulation}{7}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Global and local solutions definitions}{7}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Necessary conditions of optimality}{7}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Gradients}{7}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Examples}{8}{subsubsection.5.2.2}%
+\contentsline {section}{\numberline {6}Wednesday 09/11/2024}{9}{section.6}%
