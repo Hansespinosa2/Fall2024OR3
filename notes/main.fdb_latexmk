@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1725990857.62699 "main.bcf" "main.bbl" "main" 1725991713.37174 0
-  "main.bcf" 1725991712 107996 2ad4cfcf6ccb2017344ad685711f308a "pdflatex"
+["biber main"] 1725990857.62699 "main.bcf" "main.bbl" "main" 1725991761.49568 0
+  "main.bcf" 1725991759 107996 2ad4cfcf6ccb2017344ad685711f308a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1725991707.03493 "c:/Users/hanse/OneDrive - University of Florida/Desktop/DesktopRepo/Fall2024OR3/notes/main.tex" "main.pdf" "main" 1725991713.3735 0
+["pdflatex"] 1725991750.46284 "c:/Users/hanse/OneDrive - University of Florida/Desktop/DesktopRepo/Fall2024OR3/notes/main.tex" "main.pdf" "main" 1725991761.49882 0
   "C:/Users/hanse/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1724864967 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/hanse/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1714548301 24236046 ce77420a77f69bee6c86dfdb9885faf7 ""
   "C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -294,12 +294,12 @@
   "C:/Users/hanse/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/hanse/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "c:/Users/hanse/OneDrive - University of Florida/Desktop/DesktopRepo/Fall2024OR3/notes/main.tex" 1725985883 475 83f8f5b94d427e9b96fec3bb04d28994 ""
-  "classes/week2.aux" 1725991712 5069 a6afa9c74954f9886e8d03dfcd949635 "pdflatex"
+  "classes/week2.aux" 1725991758 5069 a6afa9c74954f9886e8d03dfcd949635 "pdflatex"
   "classes/week2.tex" 1725387603 2174 a2fb9ae621cb361c5a73e298496f7d9b ""
-  "classes/week3.aux" 1725991712 5837 c40cd515623a68ed3869f607a91556cc "pdflatex"
+  "classes/week3.aux" 1725991758 5837 c40cd515623a68ed3869f607a91556cc "pdflatex"
   "classes/week3.tex" 1725988868 5892 730fe5814cf296a3ae5cebcab7a4e481 ""
-  "classes/week4.aux" 1725991712 6978 4b6d0462815de6cc4402ae4ef9a45110 "pdflatex"
-  "classes/week4.tex" 1725991698 4129 f463043fdcd3c3763e6d87080341b7be ""
+  "classes/week4.aux" 1725991759 7095 c72c9c69d8193136b740c9636d169b6e "pdflatex"
+  "classes/week4.tex" 1725991741 4161 e6e93651d25637929422e34ce9daf48c ""
   "images/08282024example.png" 1725385949 37972 7c68ac0996c4f1b9d7d8c13686519654 ""
   "images/gradient_ex1.png" 1725991168 113511 fa3e341bc6476e7836c34ed16a6441be ""
   "images/gradient_ex2.png" 1725991226 34418 b0af33cee5775237ddfe721ab488f314 ""
@@ -307,12 +307,12 @@
   "images/gradient_ex4.png" 1725991602 23343 190df25f196a6a90c8a3f62a221f6172 ""
   "images/p_venn_diagram.png" 1725478721 148659 9714a94e5c15675420717a512009787a ""
   "include/akazachk.sty" 1724864945 19452 3aa7263e155354132100919494cb3812 ""
-  "main.aux" 1725991712 432 0ff5c16955839b79e89bae0561423fa6 "pdflatex"
+  "main.aux" 1725991759 432 0ff5c16955839b79e89bae0561423fa6 "pdflatex"
   "main.bbl" 1725990862 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1725991712 3159 ee91aa8c5c2d86f75bab0ff6a122bbdb "pdflatex"
-  "main.run.xml" 1725991712 2258 a91c127ad539d8c56e10e28939cf8079 "pdflatex"
+  "main.out" 1725991759 3306 94fe6bff91d34ec3bcc1c99519155312 "pdflatex"
+  "main.run.xml" 1725991759 2258 a91c127ad539d8c56e10e28939cf8079 "pdflatex"
   "main.tex" 1725985883 475 83f8f5b94d427e9b96fec3bb04d28994 ""
-  "main.toc" 1725991712 1742 af00eeae16e42ace10378473ad53a507 "pdflatex"
+  "main.toc" 1725991759 1818 303647cd16cb32252914c3106a74e564 "pdflatex"
   (generated)
   "classes/week2.aux"
   "classes/week3.aux"
