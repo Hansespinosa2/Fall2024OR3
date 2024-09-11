@@ -19,3 +19,6 @@
 \contentsline {subsubsection}{\numberline {5.2.1}Gradients}{7}{subsubsection.5.2.1}%
 \contentsline {subsubsection}{\numberline {5.2.2}Examples}{8}{subsubsection.5.2.2}%
 \contentsline {section}{\numberline {6}Wednesday 09/11/2024}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Nonlinear programming Part II}{9}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Problem formulation}{9}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Gradient descent intro}{11}{subsubsection.6.1.2}%

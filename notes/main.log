@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  10 SEP 2024 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  11 SEP 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1403,7 +1403,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `classes/week2.aux'.
 
  (classes/week2.tex
-<images/08282024example.png, id=122, 462.528pt x 346.896pt>
+<images/08282024example.png, id=137, 462.528pt x 346.896pt>
 File: images/08282024example.png Graphic file (type png)
 <use images/08282024example.png>
 Package pdftex.def Info: images/08282024example.png  used on input line 10.
@@ -1427,7 +1427,7 @@ Overfull \hbox (12.07236pt too wide) in paragraph at lines 43--44
 \openout2 = `classes/week3.aux'.
 
  (classes/week3.tex
-<images/p_venn_diagram.png, id=147, 748.7975pt x 483.8075pt>
+<images/p_venn_diagram.png, id=162, 748.7975pt x 483.8075pt>
 File: images/p_venn_diagram.png Graphic file (type png)
 <use images/p_venn_diagram.png>
 Package pdftex.def Info: images/p_venn_diagram.png  used on input line 4.
@@ -1529,7 +1529,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--39
 
 
 ]
-<images/gradient_ex1.png, id=175, 462.528pt x 346.896pt>
+<images/gradient_ex1.png, id=190, 462.528pt x 346.896pt>
 File: images/gradient_ex1.png Graphic file (type png)
 <use images/gradient_ex1.png>
 Package pdftex.def Info: images/gradient_ex1.png  used on input line 85.
@@ -1539,23 +1539,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--91
 
  []
 
-<images/gradient_ex2.png, id=176, 462.528pt x 346.896pt>
+<images/gradient_ex2.png, id=191, 462.528pt x 346.896pt>
 File: images/gradient_ex2.png Graphic file (type png)
 <use images/gradient_ex2.png>
 Package pdftex.def Info: images/gradient_ex2.png  used on input line 97.
 (pdftex.def)             Requested size: 352.31625pt x 264.25241pt.
 [8 <./images/gradient_ex1.png>]
-<images/gradient_ex3.png, id=189, 462.528pt x 346.896pt>
+<images/gradient_ex3.png, id=204, 462.528pt x 346.896pt>
 File: images/gradient_ex3.png Graphic file (type png)
 <use images/gradient_ex3.png>
 Package pdftex.def Info: images/gradient_ex3.png  used on input line 109.
 (pdftex.def)             Requested size: 352.31625pt x 264.25241pt.
-<images/gradient_ex4.png, id=190, 462.528pt x 346.896pt>
+<images/gradient_ex4.png, id=205, 462.528pt x 346.896pt>
 File: images/gradient_ex4.png Graphic file (type png)
 <use images/gradient_ex4.png>
-Package pdftex.def Info: images/gradient_ex4.png  used on input line 124.
+Package pdftex.def Info: images/gradient_ex4.png  used on input line 126.
 (pdftex.def)             Requested size: 352.31625pt x 264.25241pt.
-) [9 <./images/gradient_ex2.png>] [10 <./images/gradient_ex3.png> <./images/gradient_ex4.png>]
+<images/gradient_bowl.png, id=206, 419.31656pt x 386.19281pt>
+File: images/gradient_bowl.png Graphic file (type png)
+<use images/gradient_bowl.png>
+Package pdftex.def Info: images/gradient_bowl.png  used on input line 146.
+(pdftex.def)             Requested size: 352.31625pt x 324.48222pt.
+ [9 <./images/gradient_ex2.png>] [10 <./images/gradient_ex3.png> <./images/gradient_ex4.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 153--24
+
+ []
+
+[11 <./images/gradient_bowl.png>]
 No complaints by nag.
 (main.aux (classes/week2.aux) (classes/week3.aux) (classes/week4.aux))
  ***********
@@ -1563,23 +1573,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 94FE6BFF91D34EC3BCC1C99519155312;3306.
+(rerunfilecheck)             Checksum: 25DDEBC2F4E14E80BB58BA835954728C;3868.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45708 strings out of 474423
- 963150 string characters out of 5741719
- 1942496 words of memory out of 5000000
- 67248 multiletter control sequences out of 15000+600000
+ 45728 strings out of 474423
+ 963581 string characters out of 5741719
+ 1943496 words of memory out of 5000000
+ 67260 multiletter control sequences out of 15000+600000
  622624 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,107p,1203b,1056s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (10 pages, 630922 bytes).
+Output written on main.pdf (11 pages, 701822 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
