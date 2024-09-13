@@ -22,3 +22,10 @@
 \contentsline {subsection}{\numberline {6.1}Nonlinear programming Part II}{9}{subsection.6.1}%
 \contentsline {subsubsection}{\numberline {6.1.1}Problem formulation}{9}{subsubsection.6.1.1}%
 \contentsline {subsubsection}{\numberline {6.1.2}Gradient descent intro}{11}{subsubsection.6.1.2}%
+\contentsline {section}{\numberline {7}Friday 09/13/2024}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Review}{12}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}What is an Inner Product}{12}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Understanding $g(x^*)=0$}{12}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Gradient bowl}{12}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Adding another constraint}{12}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Finding optimality conditions}{13}{subsubsection.7.2.2}%

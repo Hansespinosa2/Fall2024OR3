@@ -154,3 +154,61 @@ Dropping a coin into a bowl will cause the coin to travel in the direction of th
 In the event that $\langle \nabla f(x), \delta d  \rangle < 0$, The step is in a direction that is away from the gradient. It also implies that the gradient is not zero at this point.
 \\ \\ 
 We can also introduce a constraint function $g(x)$ present in Figure \ref{fig:gradient_bowl} that defines the section (or in the figure's case, a line) that the function $f$ is feasible on. With the introduction of this constraint, the coin can only travel along the path of the constraint $g$. For the solution to be optimal in the context of the function $f$ subject to the constraint $g$, we would need to reach the point where $\nabla f(x^*) + \gamma \nabla g(x^*) = 0 $, where $\gamma = \frac{\| \nabla f \|}{\| \nabla g \|}$
+
+\section{Friday 09/13/2024}
+\subsection{Review}
+\subsubsection{What is an Inner Product}
+An inner product defined as:
+\begin{equation}
+  \langle u, v \rangle
+\end{equation}
+is a generalization of the dot product, it effectively gives the answer to the question: How much of one vector is in the direction of the other vector?
+
+\subsubsection{Understanding $g(x^*)=0$}
+If $g(x^*) \leq 0 $, then the constraint is being obeyed. The constraint is not obeyed otherwise.
+\\ \\
+Taking the equation,
+\begin{equation}
+  g(x^* + \delta d) = \delta \langle \nabla g(x^*), d \rangle - \epsilon
+\end{equation}
+The step size $\delta$can be moved, and as long as that term is less than zero and does not breach the feasible region.
+\\ \\ 
+This implies that for a solution to be optimal, $g(x^*) = 0$ must be true, (the converse does not hold).
+\subsection{Gradient bowl}
+\subsubsection{Adding another constraint}
+\begin{figure}[htbp]
+  \centerline{\includegraphics[width=0.50\textwidth]{images/gradient_bowl_cons2.png}}
+  \caption{Image of the bowl with a second constraint}
+  \label{fig:gradient_bowl_cons2}
+\end{figure}
+
+We want to walk opposite of the direction of $\nabla f$ while still walking perpendicular to the gradient of the constraint.
+\begin{equation}
+  \begin{aligned}
+    \min f(x) \\
+    s.t. g_1(x) \leq 0 \\
+    g_2(x) \leq 0
+  \end{aligned}
+\end{equation}
+
+A cone is a collection of rays that start from a certain point.
+\\ \\ 
+In order to find the set of directions we can walk along that will be both improving the objective function while staying in the feasible region, we need to find the intersection of the halfspaces created by each. 
+\begin{itemize}
+  \item The feasible region based off of $g_1$ is the halfspace created by the set $\{x | \nabla g_1(x) \leq 0 \}$.
+  \item The feasible region based off of $g_2$ is the halfspace created by the set $\{x | \nabla g_2(x) \leq 0 \}$.
+  \item The "improving" region based off of $f$ is the halfspace created by the set $\{ x | \nabla f(x) \leq 0 \}$.
+\end{itemize}
+The intersection of these sets is the cone of all possible directions that would result in an improvement to the function while obeying the constraints.
+
+\begin{figure}[htbp]
+  \centerline{\includegraphics[width=0.75\textwidth]{images/walkable_region.png}}
+  \caption{Depicting the walkable region as the intersection between the three regions}
+  \label{fig:walkable_region}
+\end{figure}
+
+\subsubsection{Finding optimality conditions}
+For two constraints $g_1$ and $g_2$, the solution $x^*$ is optimal if 
+\begin{equation}
+  \nabla f(x^*) + \gamma_1 \nabla g_1(x^*) + \gamma_2 \nabla g_2(x^*) = 0
+\end{equation}
