@@ -1,31 +1,36 @@
-\contentsline {section}{\numberline {1}Wednesday 08/28/2024}{2}{section.1}%
-\contentsline {section}{\numberline {2}Friday 08/30/2024}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Complexity Introduction}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}P, NP, NP-hard}{3}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Wednesday 09/04/2024}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}P, NP, NP-complete, and NP-hard}{4}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Turing machine}{4}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}P-problem}{5}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}NP-complete}{5}{subsubsection.3.1.3}%
-\contentsline {section}{\numberline {4}Friday 09/06/2024}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}NP-hard}{5}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Definitions}{5}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Quadratic problem}{6}{subsubsection.4.1.2}%
-\contentsline {section}{\numberline {5}Monday 09/09/2024}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Nonlinear Programming Basic Concepts}{7}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Nonlinear problem formulation}{7}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Global and local solutions definitions}{7}{subsubsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.2}Necessary conditions of optimality}{7}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Gradients}{7}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Examples}{8}{subsubsection.5.2.2}%
-\contentsline {section}{\numberline {6}Wednesday 09/11/2024}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Nonlinear programming Part II}{9}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Problem formulation}{9}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Gradient descent intro}{11}{subsubsection.6.1.2}%
-\contentsline {section}{\numberline {7}Friday 09/13/2024}{12}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Review}{12}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}What is an Inner Product}{12}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Understanding $g(x^*)=0$}{12}{subsubsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.2}Gradient bowl}{12}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Adding another constraint}{12}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Finding optimality conditions}{14}{subsubsection.7.2.2}%
+\contentsline {section}{\numberline {1}Wednesday 08/28/2024}{3}{section.1}%
+\contentsline {section}{\numberline {2}Friday 08/30/2024}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Complexity Introduction}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}P, NP, NP-hard}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Wednesday 09/04/2024}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}P, NP, NP-complete, and NP-hard}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Turing machine}{5}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}P-problem}{6}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}NP-complete}{6}{subsubsection.3.1.3}%
+\contentsline {section}{\numberline {4}Friday 09/06/2024}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}NP-hard}{6}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Definitions}{6}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Quadratic problem}{7}{subsubsection.4.1.2}%
+\contentsline {section}{\numberline {5}Monday 09/09/2024}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Nonlinear Programming Basic Concepts}{8}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Nonlinear problem formulation}{8}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Global and local solutions definitions}{8}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Necessary conditions of optimality}{8}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Gradients}{8}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Examples}{9}{subsubsection.5.2.2}%
+\contentsline {section}{\numberline {6}Wednesday 09/11/2024}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Nonlinear programming Part II}{10}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Problem formulation}{10}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Gradient descent intro}{12}{subsubsection.6.1.2}%
+\contentsline {section}{\numberline {7}Friday 09/13/2024}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Review}{13}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}What is an Inner Product}{13}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Understanding $g(x^*)=0$}{13}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Gradient bowl}{13}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Adding another constraint}{13}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Finding optimality conditions}{15}{subsubsection.7.2.2}%
+\contentsline {section}{\numberline {8}Monday 09/16/2024}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Review}{16}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Problem formulation for multiple constraints}{16}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Optimality}{16}{subsubsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.2}Active constraints}{16}{subsection.8.2}%
