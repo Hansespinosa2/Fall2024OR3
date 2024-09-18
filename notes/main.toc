@@ -34,3 +34,10 @@
 \contentsline {subsubsection}{\numberline {8.1.1}Problem formulation for multiple constraints}{16}{subsubsection.8.1.1}%
 \contentsline {subsubsection}{\numberline {8.1.2}Optimality}{16}{subsubsection.8.1.2}%
 \contentsline {subsection}{\numberline {8.2}Active constraints}{16}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Wednesday 09/18/2024}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Multiple Constraints}{18}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Inactive constraints}{18}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Karush-Kahn-Tucker Conditions}{18}{subsubsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.2}Adding an equality constraint}{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}KKT Conditions General Case}{19}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}KKT Solutions example}{19}{subsubsection.9.3.1}%

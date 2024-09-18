@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1726517656.19509 -1
-  "main.bcf" 1726517655 107996 2ad4cfcf6ccb2017344ad685711f308a "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1726689217.71694 -1
+  "main.bcf" 1726689217 107996 2ad4cfcf6ccb2017344ad685711f308a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1726517651.44944 "c:/Users/hanse/OneDrive - University of Florida/Desktop/DesktopRepo/Fall2024OR3/notes/main.tex" "main.pdf" "main" 1726517656.19635 0
+["pdflatex"] 1726689212.52838 "c:/Users/hanse/OneDrive - University of Florida/Desktop/DesktopRepo/Fall2024OR3/notes/main.tex" "main.pdf" "main" 1726689217.71857 0
   "C:/Users/hanse/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1724864967 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/hanse/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1714548301 24236046 ce77420a77f69bee6c86dfdb9885faf7 ""
   "C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -294,14 +294,14 @@
   "C:/Users/hanse/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/hanse/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "c:/Users/hanse/OneDrive - University of Florida/Desktop/DesktopRepo/Fall2024OR3/notes/main.tex" 1726513270 500 7264bbdc31d06fe4e48816ccdde48836 ""
-  "classes/week2.aux" 1726517654 5069 8712eb6b652a28f10c37b342f34d3b3d "pdflatex"
+  "classes/week2.aux" 1726689216 5069 8712eb6b652a28f10c37b342f34d3b3d "pdflatex"
   "classes/week2.tex" 1725387603 2174 a2fb9ae621cb361c5a73e298496f7d9b ""
-  "classes/week3.aux" 1726517655 5837 677b53b07cf82c8b2d2f5737a3d8db0d "pdflatex"
+  "classes/week3.aux" 1726689216 5837 677b53b07cf82c8b2d2f5737a3d8db0d "pdflatex"
   "classes/week3.tex" 1725988868 5892 730fe5814cf296a3ae5cebcab7a4e481 ""
-  "classes/week4.aux" 1726517655 9584 dd328a09523ca64033609fe231407724 "pdflatex"
+  "classes/week4.aux" 1726689216 9584 dd328a09523ca64033609fe231407724 "pdflatex"
   "classes/week4.tex" 1726257091 8461 3300d821b9ee235d195771b373d38749 ""
-  "classes/week5.aux" 1726517655 5650 d656eb16bc52b208e88529b8a1e423bb "pdflatex"
-  "classes/week5.tex" 1726516219 2975 98ef5465e4bcfd1ad0744a40fe596d33 ""
+  "classes/week5.aux" 1726689217 6592 0c0e61a41ae10b3ad51e988138856371 "pdflatex"
+  "classes/week5.tex" 1726689210 6259 4af69a7d0a067fe3581787e9001656b1 ""
   "images/08282024example.png" 1725385949 37972 7c68ac0996c4f1b9d7d8c13686519654 ""
   "images/empty_walkable_region.png" 1726517649 23782 4c28446ef42193210a8574187d4b0315 ""
   "images/gradient_bowl.png" 1726082477 76823 74b1c03125cfa54af65e8aa13e8b9d25 ""
@@ -313,12 +313,12 @@
   "images/p_venn_diagram.png" 1725478721 148659 9714a94e5c15675420717a512009787a ""
   "images/walkable_region.png" 1726263508 26087 a235532d4fb3d41c5777394df1b2b0f4 ""
   "include/akazachk.sty" 1724864945 19452 3aa7263e155354132100919494cb3812 ""
-  "main.aux" 1726517655 459 1b695680ed27b52fc2ce4db320afc66f "pdflatex"
+  "main.aux" 1726689217 459 e588fb29e539fe717e9aae129a7f27c9 "pdflatex"
   "main.bbl" 1725990862 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1726517655 5803 572e5b8f591b820d43d5da2d141a47be "pdflatex"
-  "main.run.xml" 1726517655 2258 a91c127ad539d8c56e10e28939cf8079 "pdflatex"
+  "main.out" 1726689217 7091 5437c678e77bf1b01ede455d4cdd5e01 "pdflatex"
+  "main.run.xml" 1726689217 2258 a91c127ad539d8c56e10e28939cf8079 "pdflatex"
   "main.tex" 1726513270 500 7264bbdc31d06fe4e48816ccdde48836 ""
-  "main.toc" 1726517655 3187 54a2c4add956a07eee72d6dea6e5152c "pdflatex"
+  "main.toc" 1726689217 3842 1a892ce91db503e1d3930aca4552501e "pdflatex"
   (generated)
   "classes/week2.aux"
   "classes/week3.aux"
