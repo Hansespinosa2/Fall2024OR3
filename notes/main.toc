@@ -46,3 +46,10 @@
 \contentsline {subsection}{\numberline {10.2}Adding regularity condition}{20}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Fritz John conditions}{21}{subsection.10.3}%
 \contentsline {subsection}{\numberline {10.4}NLP: Part III}{21}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Monday 09/30/2024}{22}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Review}{22}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}Convex functions and sets}{22}{subsubsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.2}Convexity}{22}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Properties of a convex function}{22}{subsubsection.11.2.1}%
+\contentsline {subsubsection}{\numberline {11.2.2}Examples}{22}{subsubsection.11.2.2}%
+\contentsline {subsubsection}{\numberline {11.2.3}Linear regression}{23}{subsubsection.11.2.3}%

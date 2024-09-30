@@ -1,0 +1,68 @@
+\section{Monday 09/30/2024}
+\subsection{Review}
+\subsubsection{Convex functions and sets}
+\begin{equation}
+  \frac{1}{2}x^T Q x + c^T x
+\end{equation}
+is the quadratic form and this function is convex as long as $Q$ is positive semidefinite.
+
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        A function $h: \mathbb{R}^n \to \mathbb{R}$ is said to be convex if and only if it satisfies 
+        \begin{equation}
+          \lambda h(x_1) + (1-\lambda)h(x_2) \geq h(\lambda x_1 + (1-\lambda)x_2)
+        \end{equation}  
+        for any $\lambda \in [0,1]$ and any $x_1, x_2 \in \textbf{dom } h$ 
+    \end{minipage}
+}
+\\ \\ 
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        A set $\Omega \subseteq \mathbb{R}^n $ is said to be convex if and only if it satisfies 
+        \begin{equation}
+          \lambda x_1 + (1-\lambda)x_2 \in \Omega
+        \end{equation}  
+        for any $\lambda \in [0,1]$ and any $x_1, x_2 \in \Omega$ 
+    \end{minipage}
+}
+
+
+\subsection{Convexity}
+\subsubsection{Properties of a convex function}
+For a twice-differential function to be convex, it's Hessian matrix must be positive semidefinite. One definition for positive semidefinite is that all eigenvalues must be non-negative, meaning that the stretch of the matrix is positive or none in the direction of each eigenvector. Below we define what the hessian of a function $f$ looks like.
+\begin{align}
+  \nabla^2 f(x) = 
+  \begin{bmatrix}
+     \frac{d^2 f(x)}{d x_1^2 } \frac{d^2 f(x)}{d x_1 x_2 } \dots \frac{d^2 f(x)}{d x_1 x_n} \\
+     \frac{d^2 f(x)}{d x_2 x_1 } \frac{d^2 f(x)}{d x_2^2} \dots \frac{d^2 f(x)}{d x_2 x_n} \\
+     \vdots\\
+     \frac{d^2 f(x)}{d x_n x_1 } \frac{d^2 f(x)}{d x_n x_2} \dots \frac{d^2 f(x)}{d x_n^2}    
+  \end{bmatrix}
+\end{align}
+\\ \\
+\framebox[\linewidth]{
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+        \textbf{Note:} Diagonal matrices' eigenvalues are the values along the diagonal.
+    \end{minipage}
+}
+
+\subsubsection{Examples}
+\begin{itemize}
+  \item The 1D function $f(x) = \frac{1}{2}x^2$ is a convex function because its hessian is $\nabla^2 f(x) = 1$. Since this is a positive value and this matrix is positive semidefinite, the function $f$ is convex. 
+  \item The 1D function $f(x) = x^3$ has a hessian of $\nabla^2 f(x) = 6x$. This function is convex on $\mathbb{R}_{++}$ and concave otherwise (both at x =0).
+  \item The 1D function $f(x) = \frac{1}{x}$ is convex on the domain $\mathbb{R_{++}}$. The hessian of this function is $\nabla^2 f(x) = \frac{2}{x^3}$, which is positive on $\mathbb{R_{++}}$
+  \item The 1D function $f(x) = -log(x)$ is convex on the domain $\mathbb{R_{++}}$. The hessian of this function is $\nabla^2 f(x) = \frac{1}{x^2}$
+\end{itemize}
+
+\subsubsection{Linear regression}
+Attempting to verify if the least squares equation is convex.
+\begin{equation}
+  \min_x \frac{1}{2n} \sum_{i=1}^n (a_i^T x - b_i)^2
+\end{equation}
+\begin{gather}
+  \nabla f(x) = \frac{1}{2n} \sum_{i=1}^n \frac{d }{d x} (a_i^T x -b_i)^2 \\
+  = \frac{1}{2n} \sum_{i=1}^n (a_i^T x -b_i)a_i \\
+  \nabla^2 f(x) = \frac{1}{2n} \sum_{i=1}^n \frac{d }{d x} a_i^T x a_i - b_i a_i \\
+  = \frac{1}{2n} \sum_{i=1}^n a_i^T a_i
+\end{gather}
+This is convex since $a_i^T a_i$ is a symmetric positive semi-definite matrix.
