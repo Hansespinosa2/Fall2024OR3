@@ -66,3 +66,46 @@ Attempting to verify if the least squares equation is convex.
   = \frac{1}{2n} \sum_{i=1}^n a_i^T a_i
 \end{gather}
 This is convex since $a_i^T a_i$ is a symmetric positive semi-definite matrix.
+
+\section{Wednesday 10/02/2024}
+\subsection{Convex Functions}
+\subsubsection{Verifying convexity}
+\begin{itemize}
+  \item $\frac{1}{2n} \sum_{i=1}^n (a_i^T x - b_i)^2$
+  \item $a^T x + b$
+  \item $-\log(x)$
+  \item $\frac{1}{x}, x>0$
+  \item $\frac{1}{x}, x \neq 0$
+  \item $\frac{1}{x}, x<0$
+  \item $g(x) + h(x)$
+  \item $\frac{g(x)}{h(x)}$
+  \item $g(h(x))$
+  \item $\max\{f_1(x),f_2(x)\}$
+\end{itemize}
+\subsubsection{composition rule for convexity}
+A logical conclusion for a composition rule $f(x) = g(h(x))$ would be that $f$ is convex if both $g$ and $h$ are convex. However, this does not work because we can use the example $g(x) = -x$ and $h(x) = -\log(x)$. The composite would be $f(x) = \log(x)$ which is concave, not convex. Therefore in order to construct a set of rules for establishing convexity, we can take the second derivate of a composite
+\begin{gather}
+  f(x) = g(h(x)) \\ 
+  \nabla f(x) = h^\prime(x) g^\prime(h(x)) \\
+  \nabla^2 f(x) = h^{\prime \prime}(x) g^\prime(h(x)) + h^\prime(x)^2 g^{\prime \prime}(h(x))
+\end{gather}
+$g$ needs to be convex, and either $h$ is convex and $g$ is non-decreasing or $h$ is concave and $g$ is non-increasing.
+
+\subsection{Convex Sets}
+If a function $f$ is convex, then the set
+\begin{equation}
+  \Omega = \{ x | f(x) \leq c \}
+\end{equation}
+is convex. The notation above means "The set of all $x$ given that a function $f(x)$ is less than $c$"
+\begin{gather}
+  \lambda f(x_1) + (1-\lambda) f(x_2) \geq f(\lambda x_1 + (1-\lambda)x_2) \\
+  \text{since } f(x_1), f(x_2) \leq c \\
+  \lambda c + (1-\lambda) c \geq f(\lambda x_1 + (1-\lambda)x_2) \\ 
+  c \geq f(\lambda x_1 + (1-\lambda)x_2)
+\end{gather}
+The last line implies that any point on the line $f$ that is between two arbitrary points $x_1,x_2 \in \Omega$ is less than $c$. \\
+What about the set 
+\begin{equation}
+  \hat{\Omega} = \{x | f(x) = c\} 
+\end{equation}
+This set is not convex. Equality constraints are convex if $f$ is a linear function.

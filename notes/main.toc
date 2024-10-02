@@ -53,3 +53,8 @@
 \contentsline {subsubsection}{\numberline {11.2.1}Properties of a convex function}{22}{subsubsection.11.2.1}%
 \contentsline {subsubsection}{\numberline {11.2.2}Examples}{22}{subsubsection.11.2.2}%
 \contentsline {subsubsection}{\numberline {11.2.3}Linear regression}{23}{subsubsection.11.2.3}%
+\contentsline {section}{\numberline {12}Wednesday 10/02/2024}{23}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Convex Functions}{23}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}Verifying convexity}{23}{subsubsection.12.1.1}%
+\contentsline {subsubsection}{\numberline {12.1.2}composition rule for convexity}{24}{subsubsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.2}Convex Sets}{24}{subsection.12.2}%
