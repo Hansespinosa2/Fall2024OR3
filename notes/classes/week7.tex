@@ -108,4 +108,81 @@ What about the set
 \begin{equation}
   \hat{\Omega} = \{x | f(x) = c\} 
 \end{equation}
+
 This set is not convex. Equality constraints are convex if $f$ is a linear function.
+
+\section{Friday 10/04/2024}
+\subsection{Preserving Convexity}
+\subsubsection{Non-negative weighted sum}
+if $f_1(x), f_2(x)$ are convex functions. Then their non-negative weighted sum 
+\begin{equation}
+  g(x) = \alpha f_1(x) + \beta f_2(x)
+\end{equation}
+is convex
+\subsubsection{affine composition}
+If $f(x)$ is convex and $x$ can be written as the affine composition $x=Ay +b$, then $f(Ay+b)$ is also convex
+
+\subsection{Applications}
+Many real-world functions are not convex, so attempting to build convex representations can lose important signals and aspects of the original function. In the application of image reconstruction, taking an image that has been blurred and distorted and reconstructing it back into the original resolution of the image.
+\subsubsection{Application 1: Upscaling images}
+One application of convex optimization is through upscaling images that are noisy and blurry in attempts to recover the original detail of the image.
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}[b]{0.49\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images/background_pixellated.png}
+    \caption{Blurry and noisy image}
+    \label{fig:background_pixellated}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.49\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images/background_original.png}
+    \caption{Original image being recovered}
+    \label{fig:background_original}
+  \end{subfigure}
+  \caption{Comparison between the blurry and noisy image (left) and the original image (right).}
+  \label{fig:comparison_images}
+\end{figure}
+
+
+\subsubsection{Radiotherapy treatment planning}
+Convex optimization can be useful in radiotherapy treatment. Radiation damages the DNA of tumor cells. Properly optimized radiotherapy machines aim to maximize the amount of tumor damaged by the machine while minimizing the damage to other cells. The stochasticity in the partical/xray process introduces non-linearity into the problem. Some constraints are in the problem because there are critical organs that must be avoided in the process. 
+\begin{equation}
+  \begin{aligned}
+    \min f(D) \\
+    s.t. D = F(x) \\
+    x \geq 0 \\
+    \text{other dose constraints}
+  \end{aligned}
+\end{equation}
+Where $F$ is a function that maps the source of radiation to the distribution of dosage. $f$ is better dose conforming given dose prescription. $x$ is a vector with intensity, angle, and shape attributes. $x$ is the intensity of radiation from its sources. Each beam is separated into a grid, and then collected into the variable $x$ where each entry in the vector corresponds to an intensity of a beam at a certain beamlet. $D$ is dose distribution. The amount of energy on each region (voxel, a small cube unit) of the human body. 
+\begin{align}
+  D = 
+  \begin{bmatrix}
+     1.4 \\
+     3.3 \\
+     5.2
+  \end{bmatrix}
+\end{align} 
+Here, that means the region is partitioned into three voxels, and the amount of dose in each region is 1.4, 3.3, and 5.2 respectively.
+
+\begin{align}
+  x = 
+  \begin{bmatrix}
+     0 \\
+     3 \\
+     5 \\
+     0 \\
+     3 \\
+     2 \\
+  \end{bmatrix}
+\end{align} 
+Here, the x is a flattened matrix that contains the intensity and direction of a bunch of beamlets collapsed into one vector.
+\\ \\
+Problem formulation:
+\begin{itemize}
+  \item target: 95\% of volume $\geq$ 72
+  \item critical organ 1 average $\leq$ 10
+  \item Critical organ 2 max dose $\leq$ 72
+\end{itemize}
