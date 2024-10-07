@@ -1,0 +1,39 @@
+\section{Monday 10/07/2024}
+\subsection{Radiotherapy example}
+\begin{equation}
+  \begin{aligned}
+    \min f(D) \\
+    s.t. D = F(x) \\
+    x \geq 0 \\
+    \text{other dose constraints}
+  \end{aligned}
+\end{equation}
+D is the dose distribution, x is a vector beamlet intensities, some clinical criteria are:
+\begin{itemize}
+  \item Target region should have 95\% of its bolume with 72 Gy or more
+  \item Critical organ 1 should have the average less than or equal to 10 Gys
+  \item The max of critical organ 2 should be less than or equal to 72 Gy
+\end{itemize}
+How can we model $D= F(x)$ while maintaining convexity? That constraint must be affine in order for the problem to still be a convex optimization problem. $F$ is a mapping from $\mathbb{R}^m \to \mathbb{R}^p$ where $m$ is the number of beamlet intensities and $p$ is the number of voxels in the human body. To preserve convexity, we can approximate the original problem with a linear formulation of the first contraint.
+\begin{equation}
+  \begin{aligned}
+    \min f(D) \\
+    s.t. Ax-ID \\
+    x \geq 0 \\
+    \text{other dose constraints}
+  \end{aligned}
+\end{equation}
+Now modelling clinical constraints. We can define $C_2$ as the region of $D$ pertaining to critical organ 2 and same for critical organ 1:
+\begin{equation}
+  \begin{aligned}
+    \min f(D) \\
+    s.t. Ax-ID \\
+    x \geq 0 \\
+    d_i \leq 72, i \in C_2 \\
+    \frac{1}{|C_1|}\sum_{i \in C_1} d_i \leq 10 \\
+    \text{other dose constraints}
+  \end{aligned}
+\end{equation}
+
+\subsection{Big M}
+Can model a binary variable $z_i$ that is the indicator function of $d_i \geq 72$

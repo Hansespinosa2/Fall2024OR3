@@ -65,3 +65,6 @@
 \contentsline {subsection}{\numberline {13.2}Applications}{25}{subsection.13.2}%
 \contentsline {subsubsection}{\numberline {13.2.1}Application 1: Upscaling images}{25}{subsubsection.13.2.1}%
 \contentsline {subsubsection}{\numberline {13.2.2}Radiotherapy treatment planning}{25}{subsubsection.13.2.2}%
+\contentsline {section}{\numberline {14}Monday 10/07/2024}{27}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Radiotherapy example}{27}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Big M}{27}{subsection.14.2}%
