@@ -37,3 +37,27 @@ Now modelling clinical constraints. We can define $C_2$ as the region of $D$ per
 
 \subsection{Big M}
 Can model a binary variable $z_i$ that is the indicator function of $d_i \geq 72$
+
+\section{Friday 10/11/2024}
+\subsection{Chemotherapy formulation}
+\begin{equation}
+  \begin{aligned}
+    \text{minimize } -\sum_{i \in T} d_i \\
+    \text{subject to } Ax = D \\
+    d_i \leq 72 \forall i \in C_1 \\
+    \frac{1}{|C_2|} \sum_{i \in C_2} d_i \leq 10
+    x \geq 0
+  \end{aligned}
+\end{equation}
+How do we incorporate the constraint that 95\% of voxels in the target region $T$ must be greater than or equal to 72 radiation units? Hint given is that the maximum of a set of convex functions is convex. $g(d_i) = \max \{ 0 , 72-d_i \}$. The objective function can be changed to $\sum_{i \in T} g(d_i)$. \\ \\
+After this formulation, it is possible for the feasible region to be empty. Is there a way to introduce a trade-off so we can "pay" to violate constraints. This can be done by adding weights to constraints and adding them to the objective function.
+\begin{equation}
+  \begin{aligned}
+    \text{minimize } w_1 \sum_{i \in T} g(d_i) + w_2 \sum_{i \in C_1} h(d_i) \\
+    \text{subject to } Ax = D \\
+    \frac{1}{|C_2|} \sum_{i \in C_2} d_i \leq 10
+    x \geq 0
+  \end{aligned}
+\end{equation}
+Where $h(d_i) = \max \{ 0 , d_i - 72 \}$ \\ \\
+Summarizing the radiotherapy problem: It is a feasibility problem with many dose constraints where we want to find a radiotherapy treatment that doesn't violate the dose constraints. However, practically the feasible region tends to be empty for a lot of those problems. So instead of just returning no solution, the problem is reformulated with the constraints being placed in the objective function with weights so that the problem can be manipulated to relax constraints to attain feasibility.
