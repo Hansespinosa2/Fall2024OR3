@@ -1,0 +1,20 @@
+ \section{Monday 10/14/2024}
+ \subsection{Gradient Descent}
+ If we have a point $x_0$ of the differentiable function
+ \begin{equation}
+  \min_{x \in \mathbb{R}^n} f(x)
+ \end{equation}
+How do we improve on that to approach a better solution? We can use the gradient and travel opposite of it to the point $x_1 = x_0 - \delta \nabla f(x_0)$
+\begin{equation}
+  f(x_0 + \delta d) - f(x_0) = \delta \langle \nabla f(x_0), d \rangle + o(\delta)
+\end{equation}
+
+Iteratively plugging in to improve on an initially arbitrary point $x_0$ to push closer and closer to the optimal value. We can pick a value $K$ to repeat the bottom iteration step $K$ amount of times. We also specify the $\alpha$ as the step size that the gradient descent algorithm takes.
+\begin{equation}
+  x_k = x_{k-1} - \alpha \nabla f(x_{k-1})
+\end{equation}
+In neural networks, gradient descent is used to push towards the optimal point and attain a good fit to the data. Backpropagation is used to smartly exploit the structure of the neural network to effiiciently calculate the gradient of the NN. \\ \\
+If the problem is convex and the gradient is continuous, then as $K$ approaches infinity, the value $f(x_K)$ will approach $f(x^*)$. If convex, then $|f(x_K) - f(x^*)| \leq \textbf{O}(\frac{1}{K})$ \\ \\
+How do we pick $\alpha$? When $\alpha$ is large, the algorithm diverges, but if it is too small, then the algorithm will practically take too long to converge as the step sizes don't make any meaningful progress. One method of picking $\alpha$ that will somewhat alleviate these cases is to decrease $\alpha$ over time at a rate $\alpha_k = \frac{\theta}{\sqrt{k}}$. Still need to pick the value  for $\theta$, but the chance of the algorithm diverging or taking too long to converge is much lower. \\
+If $\| \nabla f(x) - \nabla f(y) \| \leq L \| x - y \|$, then the optimal choice for $\alpha$ is $\frac{1}{L}$. \\
+We can reframe the choice of $\alpha$ as an optimization problem.

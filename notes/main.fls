@@ -464,6 +464,9 @@ INPUT classes\week7.aux
 INPUT .\classes\week8.aux
 INPUT .\classes\week8.aux
 INPUT classes\week8.aux
+INPUT .\classes\week9.aux
+INPUT .\classes\week9.aux
+INPUT classes\week9.aux
 OUTPUT main.aux
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -692,6 +695,12 @@ OUTPUT classes\week8.aux
 INPUT .\classes\week8.tex
 INPUT .\classes\week8.tex
 INPUT classes\week8.tex
+INPUT .\classes\week9.tex
+INPUT .\classes\week9.tex
+OUTPUT classes\week9.aux
+INPUT .\classes\week9.tex
+INPUT .\classes\week9.tex
+INPUT classes\week9.tex
 INPUT main.aux
 INPUT .\classes\week2.aux
 INPUT .\classes\week2.aux
@@ -714,6 +723,9 @@ INPUT classes\week7.aux
 INPUT .\classes\week8.aux
 INPUT .\classes\week8.aux
 INPUT classes\week8.aux
+INPUT .\classes\week9.aux
+INPUT .\classes\week9.aux
+INPUT classes\week9.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml
