@@ -18,3 +18,15 @@ If the problem is convex and the gradient is continuous, then as $K$ approaches 
 How do we pick $\alpha$? When $\alpha$ is large, the algorithm diverges, but if it is too small, then the algorithm will practically take too long to converge as the step sizes don't make any meaningful progress. One method of picking $\alpha$ that will somewhat alleviate these cases is to decrease $\alpha$ over time at a rate $\alpha_k = \frac{\theta}{\sqrt{k}}$. Still need to pick the value  for $\theta$, but the chance of the algorithm diverging or taking too long to converge is much lower. \\
 If $\| \nabla f(x) - \nabla f(y) \| \leq L \| x - y \|$, then the optimal choice for $\alpha$ is $\frac{1}{L}$. \\
 We can reframe the choice of $\alpha$ as an optimization problem.
+
+\section{Wednesday 10/16/2024}
+\subsection{Gradient descent review}
+Can formulate the gradient descent problem as an optimization problem while still preserving convexity. We want to find the optimal step size. If we know $x^*$, then we can pick step sizes that would cause us to get as close as possible to it. Locally, the only information that we have is the previous gradient $\nabla f(x^{k-1})$, the current iteration and previous iteration point $x^k, x^{k-1}$ and the function values for those points $f(x^k),f(x^{k-1})$.
+
+\begin{equation}
+  \min_\alpha f(x^{k-1} - \alpha \nabla f(x^{k-1}))
+\end{equation}
+The above optimization problem is an unconstrained convex problem if the function $f$ is convex since input to $f$ is an affine combination with respect to $\alpha$. For each problem, $x^{k-1}, \nabla f(x^{k-1})$ are fixed parameters. The bisection method is a very effective algorithm for searching for the appropriate value of $\alpha$.
+
+\subsection{Bisection method}
+Starting with a guess of $\alpha_1$, can evaluate the derivative of the function and grab the sign. If the sign of the derivative is positive, then that is the "positive" upper bound to the problem and we know the minimal value is less than the guess $\alpha_1$. We then guess $\alpha_2$ and evaluate its sign, if it is negative, we know the optimal value is between $\alpha_1$ and $\alpha_2$.
