@@ -75,3 +75,8 @@
 \contentsline {section}{\numberline {17}Wednesday 10/16/2024}{30}{section.17}%
 \contentsline {subsection}{\numberline {17.1}Gradient descent review}{30}{subsection.17.1}%
 \contentsline {subsection}{\numberline {17.2}Bisection method}{31}{subsection.17.2}%
+\contentsline {section}{\numberline {18}Monday 10/28/2024}{32}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Nesterov's optimal method}{32}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Alternative Gradient Descent}{32}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Newton's Method}{32}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}Zeroth-order methods}{32}{subsection.18.4}%

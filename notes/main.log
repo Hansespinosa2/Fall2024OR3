@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  16 OCT 2024 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.1)  28 OCT 2024 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1266,7 +1266,7 @@ Package csquotes Info: ... none found.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16.
  (C:\Users\hanse\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux (classes/week2.aux) (classes/week3.aux) (classes/week4.aux) (classes/week5.aux) (classes/week6.aux) (classes/week7.aux) (classes/week8.aux) (classes/week9.aux))
+) (main.aux (classes/week2.aux) (classes/week3.aux) (classes/week4.aux) (classes/week5.aux) (classes/week6.aux) (classes/week7.aux) (classes/week8.aux) (classes/week9.aux) (classes/week10.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -1403,7 +1403,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `classes/week2.aux'.
 
  (classes/week2.tex
-<images/08282024example.png, id=413, 462.528pt x 346.896pt>
+<images/08282024example.png, id=438, 462.528pt x 346.896pt>
 File: images/08282024example.png Graphic file (type png)
 <use images/08282024example.png>
 Package pdftex.def Info: images/08282024example.png  used on input line 10.
@@ -1427,7 +1427,7 @@ Overfull \hbox (12.07236pt too wide) in paragraph at lines 43--44
 \openout2 = `classes/week3.aux'.
 
  (classes/week3.tex
-<images/p_venn_diagram.png, id=435, 748.7975pt x 483.8075pt>
+<images/p_venn_diagram.png, id=460, 748.7975pt x 483.8075pt>
 File: images/p_venn_diagram.png Graphic file (type png)
 <use images/p_venn_diagram.png>
 Package pdftex.def Info: images/p_venn_diagram.png  used on input line 4.
@@ -1529,7 +1529,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--39
 
 
 ]
-<images/gradient_ex1.png, id=463, 462.528pt x 346.896pt>
+<images/gradient_ex1.png, id=488, 462.528pt x 346.896pt>
 File: images/gradient_ex1.png Graphic file (type png)
 <use images/gradient_ex1.png>
 Package pdftex.def Info: images/gradient_ex1.png  used on input line 85.
@@ -1539,23 +1539,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--91
 
  []
 
-<images/gradient_ex2.png, id=464, 462.528pt x 346.896pt>
+<images/gradient_ex2.png, id=489, 462.528pt x 346.896pt>
 File: images/gradient_ex2.png Graphic file (type png)
 <use images/gradient_ex2.png>
 Package pdftex.def Info: images/gradient_ex2.png  used on input line 97.
 (pdftex.def)             Requested size: 352.31625pt x 264.25241pt.
 [10 <./images/gradient_ex1.png>]
-<images/gradient_ex3.png, id=477, 462.528pt x 346.896pt>
+<images/gradient_ex3.png, id=502, 462.528pt x 346.896pt>
 File: images/gradient_ex3.png Graphic file (type png)
 <use images/gradient_ex3.png>
 Package pdftex.def Info: images/gradient_ex3.png  used on input line 109.
 (pdftex.def)             Requested size: 352.31625pt x 264.25241pt.
-<images/gradient_ex4.png, id=478, 462.528pt x 346.896pt>
+<images/gradient_ex4.png, id=503, 462.528pt x 346.896pt>
 File: images/gradient_ex4.png Graphic file (type png)
 <use images/gradient_ex4.png>
 Package pdftex.def Info: images/gradient_ex4.png  used on input line 126.
 (pdftex.def)             Requested size: 352.31625pt x 264.25241pt.
-<images/gradient_bowl.png, id=479, 419.31656pt x 386.19281pt>
+<images/gradient_bowl.png, id=504, 419.31656pt x 386.19281pt>
 File: images/gradient_bowl.png Graphic file (type png)
 <use images/gradient_bowl.png>
 Package pdftex.def Info: images/gradient_bowl.png  used on input line 146.
@@ -1588,7 +1588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--177
 
  []
 
-<images/gradient_bowl_cons2.png, id=506, 429.10312pt x 384.6872pt>
+<images/gradient_bowl_cons2.png, id=531, 429.10312pt x 384.6872pt>
 File: images/gradient_bowl_cons2.png Graphic file (type png)
 <use images/gradient_bowl_cons2.png>
 Package pdftex.def Info: images/gradient_bowl_cons2.png  used on input line 180.
@@ -1598,7 +1598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--198
 
  []
 
-<images/walkable_region.png, id=515, 361.35pt x 361.35pt>
+<images/walkable_region.png, id=540, 361.35pt x 361.35pt>
 File: images/walkable_region.png Graphic file (type png)
 <use images/walkable_region.png>
 Package pdftex.def Info: images/walkable_region.png  used on input line 205.
@@ -1611,7 +1611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--30
 
  []
 
-<images/empty_walkable_region.png, id=528, 361.35pt x 361.35pt>
+<images/empty_walkable_region.png, id=553, 361.35pt x 361.35pt>
 File: images/empty_walkable_region.png Graphic file (type png)
 <use images/empty_walkable_region.png>
 Package pdftex.def Info: images/empty_walkable_region.png  used on input line 40.
@@ -1629,7 +1629,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--57
 \openout2 = `classes/week6.aux'.
 
  (classes/week6.tex
-<images/kkt_feasible_region.png, id=567, 462.528pt x 346.896pt>
+<images/kkt_feasible_region.png, id=592, 462.528pt x 346.896pt>
 File: images/kkt_feasible_region.png Graphic file (type png)
 <use images/kkt_feasible_region.png>
 Package pdftex.def Info: images/kkt_feasible_region.png  used on input line 14.
@@ -1676,12 +1676,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--48
 
 
 ] [24] [25]
-<images/background_pixellated.png, id=615, 478.03593pt x 477.28313pt>
+<images/background_pixellated.png, id=640, 478.03593pt x 477.28313pt>
 File: images/background_pixellated.png Graphic file (type png)
 <use images/background_pixellated.png>
 Package pdftex.def Info: images/background_pixellated.png  used on input line 133.
 (pdftex.def)             Requested size: 230.18253pt x 229.82156pt.
-<images/background_original.png, id=616, 606.01407pt x 555.57562pt>
+<images/background_original.png, id=641, 606.01407pt x 555.57562pt>
 File: images/background_original.png Graphic file (type png)
 <use images/background_original.png>
 Package pdftex.def Info: images/background_original.png  used on input line 140.
@@ -1726,30 +1726,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--21
 
 
 ] [31]
+\openout2 = `classes/week10.aux'.
+
+ (classes/week10.tex
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 5.
+<images/black_box.png, id=682, 318.43968pt x 94.85437pt>
+File: images/black_box.png Graphic file (type png)
+<use images/black_box.png>
+Package pdftex.def Info: images/black_box.png  used on input line 45.
+(pdftex.def)             Requested size: 352.31625pt x 104.9451pt.
+) [32
+
+
+
+] [33 <./images/black_box.png>]
 No complaints by nag.
-(main.aux (classes/week2.aux) (classes/week3.aux) (classes/week4.aux) (classes/week5.aux) (classes/week6.aux) (classes/week7.aux) (classes/week8.aux) (classes/week9.aux))
+(main.aux (classes/week2.aux) (classes/week3.aux) (classes/week4.aux) (classes/week5.aux) (classes/week6.aux) (classes/week7.aux) (classes/week8.aux) (classes/week9.aux) (classes/week10.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AAD44AECCB7BCD150C5F19DFA9EA2D06;12464.
+(rerunfilecheck)             Checksum: 0C4E5CE372545BBFEC3C3DA78C21A19F;13295.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46121 strings out of 474423
- 973423 string characters out of 5741719
+ 46210 strings out of 474423
+ 975474 string characters out of 5741719
  1947496 words of memory out of 5000000
- 67481 multiletter control sequences out of 15000+600000
- 625614 words of font info for 80 fonts, out of 8000000 for 9000
+ 67543 multiletter control sequences out of 15000+600000
+ 628611 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,107p,1203b,1056s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (31 pages, 2482033 bytes).
+<C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/hanse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (33 pages, 2528132 bytes).
 PDF statistics:
- 775 PDF objects out of 1000 (max. 8388607)
- 200 named destinations out of 1000 (max. 500000)
- 694 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 833 PDF objects out of 1000 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
+ 739 words of extra memory for PDF output out of 10000 (max. 10000000)
 
