@@ -80,3 +80,8 @@
 \contentsline {subsection}{\numberline {18.2}Alternative Gradient Descent}{32}{subsection.18.2}%
 \contentsline {subsection}{\numberline {18.3}Newton's Method}{32}{subsection.18.3}%
 \contentsline {subsection}{\numberline {18.4}Zeroth-order methods}{32}{subsection.18.4}%
+\contentsline {section}{\numberline {19}Monday 11/04/2024}{34}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Optimization Algorithms for Unconstrained Problems 3}{34}{subsection.19.1}%
+\contentsline {subsubsection}{\numberline {19.1.1}Meta-Heuristics}{34}{subsubsection.19.1.1}%
+\contentsline {subsection}{\numberline {19.2}Optimization Algorithms for Constrained Problems}{34}{subsection.19.2}%
+\contentsline {subsubsection}{\numberline {19.2.1}Projection-based method}{34}{subsubsection.19.2.1}%

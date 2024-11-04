@@ -1,0 +1,20 @@
+\section{Monday 11/04/2024}
+\subsection{Optimization Algorithms for Unconstrained Problems 3}
+\subsubsection{Meta-Heuristics}
+There are heuristic optimization algorithms that try to exploit some intuitive understanding of the original problem and use that to find the best solution instead of some problem-agnostic algorithm like gradient descent. Genetic algorithms are algorithms that create different generations of solutions with characteristics and a "fitness" score. At each iteration, the probability of an algorithm surviving is defined by its fitness score and then a new generation is created from the solutions that survived. At each generation, there is a mutation process that can introduce new characteristics into the solutions.
+\subsection{Optimization Algorithms for Constrained Problems}
+A constrained optimization problem can be transformed into an unconstrained problem by introducing a cost to each constraint in the objective function.
+\begin{equation}
+  \begin{aligned}
+    \text{minimize } f(x) \\
+    \text{subject to } g(x) \leq 0 \\
+    h(x) = 0
+  \end{aligned}
+\end{equation}
+Can be turned into
+\begin{equation}
+  \text{minimize } f(x) + \lambda g(x) + \nu h(x)
+\end{equation}
+
+\subsubsection{Projection-based method}
+Mirror descent is an optimization method that allows us to alter the unconstrained case of gradient descent and change it into the constrained case. We introduce the domain and restrict it to a convex set $\Omega \subseteq \mathbb{R}^d$
