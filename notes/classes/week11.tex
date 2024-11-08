@@ -87,4 +87,98 @@ In this case, if the fixed point $y^k$ is outside of the feasible region, the po
   \label{fig:euclidean_ball}
 \end{figure}
 
-The optimal solution here is
+The optimal solution here is the point on the line that lies on the boundary of the surface of the euclidean ball.
+We can also extend the $l_2$-norm to be any $l_p$-norm.
+
+\section{Friday 11/08/2024}
+\subsection{Stochastic Programming: Solutions Methods}
+Can we still perform optimization in the event that we don't know all of the problem parameters with absolute certainty.
+\subsubsection{Newsvendor Problem}
+This is an inventory problem with the following setup:
+\begin{itemize}
+  \item $\xi$: Uncertain daily demand for a daily newspaper
+  \item $x$: Decision about the quantity of newspapers to be purchased from distributor
+  \item $c$: Cost to be paid by the newsvendor for one paper at the beginning of the day
+  \item $s$: Selling price for one newspaper
+  \item $r$: Return price for one unsold newspaper at the end of the day.
+\end{itemize} 
+What is the profit? (Assuming that $0\leq r < c < s$)
+We want to maximize the quantity of profit defined below
+\begin{equation}
+  \Pi(x,\xi) = 
+  \begin{cases}
+    s\xi - cx + r(x-\xi) & x \geq \xi \\
+    sx -cx & o.w.
+  \end{cases}
+\end{equation}
+
+This can be aggregated into one function 
+\begin{equation}
+  \Pi(x,\xi) = (s-c)x - (s-r) \max \{ 0, x-\xi \}
+\end{equation}
+
+Since $\xi$ is a random variable. We can find the expected profit as
+\begin{equation}
+  \mathbb{E}[f(x,\xi)] = \sum_{k=0}^\infty \mathbb{P}_\xi (k) f(x,k)
+\end{equation}
+where $\mathbb{P}_\xi$ is the PMF of $\xi$. Then, the complete optimization problem we want to maximize for the newsvendor problem is
+
+\begin{align}
+  \text{maximize} & \quad \mathbb{E}[f(x,\xi)] \\
+  \text{subject to} & \quad x \geq 0
+\end{align}
+
+\subsubsection{General Case}
+
+This concept of stochastic programming extends to the general optimization case where all objectives and constraints can depend on a random variable.
+
+\begin{align}
+  \text{minimize} & \quad \mathbb{E}[f(x,\xi_1)] \\
+  \text{subject to} & \quad \mathbb{E}[g(x,\xi_2)] \leq 0\\
+  & \quad \mathbb{E}[h(x,\xi_3)] = 0
+\end{align}
+
+Since variance is also an expectation, defined as $Var(x) = \mathbb{E}[(x-\mathbb{E}[x])^2]$, we can minimize different moments of the function. (Variance is the second moment of a random variable).
+
+\subsubsection{Portfolio Optimization}
+\begin{itemize}
+  \item 1 unit of money invested on $n$-many stocks.
+  \item $\textbf{x}$ portfolio of investment (how much percentage to be allocated to which stock).
+  \item Unit return $r \in \mathbb{R}^n$ is a random vector.
+\end{itemize}
+
+Expected return for one portfolio is defined as
+\begin{equation}
+  \mathbb{E}[r^T \textbf{x}]
+\end{equation}
+It is natural to want to maximize this expected return. However, in financial engineering this is not done because a high average may still be quite risky. For example, a function that has a $51\%$ chance of returning $\$1,000,000$ and a 49\% chance of losing \$1,000,000. The average return will be high but this is a very risky choice. So instead, the variance of the return (the risk of the portfolio) is minimized.
+\begin{equation}
+  Var(\textbf{x}) = \mathbb{E}[\textbf{x}^T(r-\mathbb{E}[r])(r^T -\mathbb{E}[r^T])\textbf{x}]
+\end{equation}
+
+So, the "population-level" Markowitz model for portfolio optimization is a combination of return and variance
+\begin{align}
+  \text{minimize} & \quad -\mathbb{E}[r^T \textbf{x}] + \gamma \mathbb{E}[\textbf{x}^T(r-\mathbb{E}[r])(r^T -\mathbb{E}[r^T])\textbf{x}] \\
+  \text{subject to} & \quad \textbf{1}^T \textbf{x} = 1 \\
+  & \quad \textbf{x} \geq \textbf{0}
+\end{align}
+
+\subsubsection{Stochastic Programming and Machine Learning}
+We are given data generated from a linear model
+\begin{equation}
+  y = \alpha^\top \textbf{x}^{true} + w
+\end{equation}
+where $\alpha \in \mathbb{R}^n, w \in \mathbb{R}$ are random.
+
+Given observations about $\alpha, \beta$, how do we find $\textbf{x}^{true}$
+
+Given fitting parameters $\textbf{x}$, what is the mean prediction error?
+\begin{equation}
+  \mathbb{E}[(\alpha^\top \textbf{x} - \beta)^2]
+\end{equation}
+How to find the best $\textbf{x}$ such that the prediction error is minimized on average? \\
+
+"Population-level" linear regression problem.
+\begin{align}
+  \text{minimize} & \quad \mathbb{E}[(\alpha^\top \textbf{x} - \beta)^2]
+\end{align}
