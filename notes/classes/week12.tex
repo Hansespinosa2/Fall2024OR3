@@ -1,0 +1,79 @@
+\section{Wednesday 11/13/2024}
+\subsection{Sample Average Approximation}
+Sample average approximation, also known as Monte Carlo Sampling method considers approximating the expectation of functions by sampling.
+
+\begin{align}
+  \text{minimize} & \quad \mathbb{E}[f(\textbf{x},\xi)] \\
+  \text{subject to} & \quad  \mathbb{E}[g(\textbf{x},\eta)] \leq 0
+\end{align}
+Using the law of large numbers, we can approximate the expecation with the sample average below. 
+\begin{align}
+  \text{minimize} & \quad N^{-1} \sum_{j=1}^N [f(\textbf{x},\xi_j)] \\
+  \text{subject to} & \quad K^{-1} \sum_{k=1}^K g(\textbf{x},\eta_k) \leq 0
+\end{align}
+
+\subsubsection{Monte Carlo Newsvendor}
+\begin{align}
+  \text{maximize} & \quad \mathbb{E}[f(x,\xi)] \\
+  \text{subject to} & \quad x \geq 0
+\end{align}
+Going back to the newsvendor, we could sample $N$ amount of periods of demand and use that to estimate the objective function since we do not know the actual distribution of the demand. So, the monte carlo approximation of this would be
+\begin{align}
+  \text{maximize} & \quad N^{-1} \sum_{j=1}^N [f(\textbf{x},\xi_j)] \\
+  \text{subject to} & \quad x \geq 0
+\end{align}
+
+\subsubsection{Monte Carlo Portfolio}
+\begin{align}
+  \text{minimize} & \quad -\mathbb{E}[r^T \textbf{x}] + \gamma \mathbb{E}[\textbf{x}^T(r-\mathbb{E}[r])(r^T -\mathbb{E}[r^T])\textbf{x}] \\
+  \text{subject to} & \quad \textbf{1}^T \textbf{x} = 1 \\
+  & \quad \textbf{x} \geq \textbf{0}
+\end{align}
+Looking at the portfolio optimization problem, we can take each component and sample the returns to approximate the expectations
+
+\begin{equation}
+  -\mathbb{E}[r^\top \textbf{x}] \approx N^{-1}\sum_{n=1}^N r_n^\top \textbf{x}
+\end{equation}
+
+\begin{equation}
+  \begin{aligned}
+    \mathbb{E}[\textbf{x}^T(r-\mathbb{E}[r])(r^T -\mathbb{E}[r^T])\textbf{x}] \approx  N^{-1} \sum_{n=1}^N \textbf{x}^T(r_n-\mathbb{E}[r])(r_n^T -\mathbb{E}[r^T])\textbf{x} \\
+    \approx N^{-1} \sum_{n=1}^N \textbf{x}^T(r_n-\bar{r})(r_n^T -\bar{r}^T)\textbf{x} \\ 
+    \approx \textbf{x}^T(N^{-1}\sum_{n=1}^N (r_n-\bar{r})(r_n^T -\bar{r}^T))\textbf{x}
+  \end{aligned}
+\end{equation}
+Where $\bar{r} = \frac{1}{N} \sum_{n=1}^{N} r_n$
+
+The portfolio problem is then turned into 
+\begin{align}
+  \text{minimize} & \quad -N^{-1}\sum_{n=1}^N r_n^\top \textbf{x} + \gamma \textbf{x}^T(N^{-1}\sum_{n=1}^N (r_n-\bar{r})(r_n^T -\bar{r}^T))\textbf{x} \\
+  \text{subject to} & \quad \textbf{1}^T \textbf{x} = 1 \\
+  & \quad \textbf{x} \geq \textbf{0}
+\end{align}
+
+\subsubsection{Monte Carlo Linear Regression}
+\begin{align}
+  \text{minimize} & \quad \mathbb{E}[(\alpha^\top \textbf{x} - \beta)^2]
+\end{align}
+This is the linear regression problem and we can formulate it as a sample average as
+\begin{align}
+  \text{minimize} & \quad N^{-1}\sum_{n=1}^{N}(\alpha_n^\top \textbf{x} - \beta_n)^2
+\end{align}
+This is also the mean square error loss function.
+
+\subsection{Stochastic Approximation}
+Consider the problem
+\begin{align}
+  \text{minimize} & \quad F(\textbf{x}) := \mathbb{E}[f(\textbf{x},\xi)] \\
+  \text{subject to} & \quad  \textbf{x} \in \Omega
+\end{align}
+Solving a problem via projected gradient descent method.
+\begin{equation}
+  \textbf{x}^k = P_\Omega [\textbf{x}^{k-1}- \alpha^{k-1} \nabla F(\textbf{x}^{k-1})]
+\end{equation}
+where $P_\Omega[\cdot ]$ stands for the Euclidean projection. \\
+However, $\nabla F(\textbf{x})$ is hard to compute. So, $\nabla f(\textbf{x},\xi)$ is an unbiased estimator to $\nabla F(\textbf{x})$. \\
+Thus, we have stochastic gradient descent (SGD):
+\begin{equation}
+  \textbf{x}^k = P_\Omega [\textbf{x}^{k-1}- \alpha^{k-1} \nabla f(\textbf{x}^{k-1},\xi^{k-1})]
+\end{equation}
