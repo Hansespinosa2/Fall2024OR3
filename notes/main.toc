@@ -1,109 +1,115 @@
-\contentsline {section}{\numberline {1}Wednesday 08/28/2024}{4}{section.1}%
-\contentsline {section}{\numberline {2}Friday 08/30/2024}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Complexity Introduction}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}P, NP, NP-hard}{5}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Wednesday 09/04/2024}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}P, NP, NP-complete, and NP-hard}{6}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Turing machine}{6}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}P-problem}{7}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}NP-complete}{7}{subsubsection.3.1.3}%
-\contentsline {section}{\numberline {4}Friday 09/06/2024}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}NP-hard}{7}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Definitions}{7}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Quadratic problem}{8}{subsubsection.4.1.2}%
-\contentsline {section}{\numberline {5}Monday 09/09/2024}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Nonlinear Programming Basic Concepts}{9}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Nonlinear problem formulation}{9}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Global and local solutions definitions}{9}{subsubsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.2}Necessary conditions of optimality}{9}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Gradients}{9}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Examples}{10}{subsubsection.5.2.2}%
-\contentsline {section}{\numberline {6}Wednesday 09/11/2024}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Nonlinear programming Part II}{11}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Problem formulation}{11}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Gradient descent intro}{13}{subsubsection.6.1.2}%
-\contentsline {section}{\numberline {7}Friday 09/13/2024}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Review}{14}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}What is an Inner Product}{14}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Understanding $g(x^*)=0$}{14}{subsubsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.2}Gradient bowl}{14}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Adding another constraint}{14}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Finding optimality conditions}{16}{subsubsection.7.2.2}%
-\contentsline {section}{\numberline {8}Monday 09/16/2024}{17}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Review}{17}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Problem formulation for multiple constraints}{17}{subsubsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.2}Optimality}{17}{subsubsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.2}Active constraints}{17}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Wednesday 09/18/2024}{19}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Multiple Constraints}{19}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Inactive constraints}{19}{subsubsection.9.1.1}%
-\contentsline {subsubsection}{\numberline {9.1.2}Karush-Kahn-Tucker Conditions}{19}{subsubsection.9.1.2}%
-\contentsline {subsection}{\numberline {9.2}Adding an equality constraint}{19}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}KKT Conditions General Case}{20}{subsection.9.3}%
-\contentsline {subsubsection}{\numberline {9.3.1}KKT Solutions example}{20}{subsubsection.9.3.1}%
-\contentsline {section}{\numberline {10}Monday 09/23/2024}{21}{section.10}%
-\contentsline {subsection}{\numberline {10.1}KKT Condition qualification}{21}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Adding regularity condition}{21}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Fritz John conditions}{22}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}NLP: Part III}{22}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Monday 09/30/2024}{23}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Review}{23}{subsection.11.1}%
-\contentsline {subsubsection}{\numberline {11.1.1}Convex functions and sets}{23}{subsubsection.11.1.1}%
-\contentsline {subsection}{\numberline {11.2}Convexity}{23}{subsection.11.2}%
-\contentsline {subsubsection}{\numberline {11.2.1}Properties of a convex function}{23}{subsubsection.11.2.1}%
-\contentsline {subsubsection}{\numberline {11.2.2}Examples}{23}{subsubsection.11.2.2}%
-\contentsline {subsubsection}{\numberline {11.2.3}Linear regression}{24}{subsubsection.11.2.3}%
-\contentsline {section}{\numberline {12}Wednesday 10/02/2024}{24}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Convex Functions}{24}{subsection.12.1}%
-\contentsline {subsubsection}{\numberline {12.1.1}Verifying convexity}{24}{subsubsection.12.1.1}%
-\contentsline {subsubsection}{\numberline {12.1.2}composition rule for convexity}{25}{subsubsection.12.1.2}%
-\contentsline {subsection}{\numberline {12.2}Convex Sets}{25}{subsection.12.2}%
-\contentsline {section}{\numberline {13}Friday 10/04/2024}{25}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Preserving Convexity}{25}{subsection.13.1}%
-\contentsline {subsubsection}{\numberline {13.1.1}Non-negative weighted sum}{25}{subsubsection.13.1.1}%
-\contentsline {subsubsection}{\numberline {13.1.2}affine composition}{25}{subsubsection.13.1.2}%
-\contentsline {subsection}{\numberline {13.2}Applications}{26}{subsection.13.2}%
-\contentsline {subsubsection}{\numberline {13.2.1}Application 1: Upscaling images}{26}{subsubsection.13.2.1}%
-\contentsline {subsubsection}{\numberline {13.2.2}Radiotherapy treatment planning}{26}{subsubsection.13.2.2}%
-\contentsline {section}{\numberline {14}Monday 10/07/2024}{28}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Radiotherapy example}{28}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Big M}{28}{subsection.14.2}%
-\contentsline {section}{\numberline {15}Friday 10/11/2024}{29}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Chemotherapy formulation}{29}{subsection.15.1}%
-\contentsline {section}{\numberline {16}Monday 10/14/2024}{30}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Gradient Descent}{30}{subsection.16.1}%
-\contentsline {section}{\numberline {17}Wednesday 10/16/2024}{30}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Gradient descent review}{30}{subsection.17.1}%
-\contentsline {subsection}{\numberline {17.2}Bisection method}{31}{subsection.17.2}%
-\contentsline {section}{\numberline {18}Monday 10/28/2024}{32}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Nesterov's optimal method}{32}{subsection.18.1}%
-\contentsline {subsection}{\numberline {18.2}Alternative Gradient Descent}{32}{subsection.18.2}%
-\contentsline {subsection}{\numberline {18.3}Newton's Method}{32}{subsection.18.3}%
-\contentsline {subsection}{\numberline {18.4}Zeroth-order methods}{32}{subsection.18.4}%
-\contentsline {section}{\numberline {19}Monday 11/04/2024}{34}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Optimization Algorithms for Unconstrained Problems 3}{34}{subsection.19.1}%
-\contentsline {subsubsection}{\numberline {19.1.1}Meta-Heuristics}{34}{subsubsection.19.1.1}%
-\contentsline {subsection}{\numberline {19.2}Optimization Algorithms for Constrained Problems}{34}{subsection.19.2}%
-\contentsline {subsubsection}{\numberline {19.2.1}Projection-based method}{34}{subsubsection.19.2.1}%
-\contentsline {section}{\numberline {20}Wednesday 11/06/2024}{34}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Projection-based Methods}{34}{subsection.20.1}%
-\contentsline {subsubsection}{\numberline {20.1.1}Mirror Descent}{34}{subsubsection.20.1.1}%
-\contentsline {subsubsection}{\numberline {20.1.2}Non-negative set}{35}{subsubsection.20.1.2}%
-\contentsline {subsubsection}{\numberline {20.1.3}Upper/Lower bounds}{35}{subsubsection.20.1.3}%
-\contentsline {subsubsection}{\numberline {20.1.4}Euclidean ball}{35}{subsubsection.20.1.4}%
-\contentsline {section}{\numberline {21}Friday 11/08/2024}{36}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Stochastic Programming: Solutions Methods}{36}{subsection.21.1}%
-\contentsline {subsubsection}{\numberline {21.1.1}Newsvendor Problem}{36}{subsubsection.21.1.1}%
-\contentsline {subsubsection}{\numberline {21.1.2}General Case}{37}{subsubsection.21.1.2}%
-\contentsline {subsubsection}{\numberline {21.1.3}Portfolio Optimization}{37}{subsubsection.21.1.3}%
-\contentsline {subsubsection}{\numberline {21.1.4}Stochastic Programming and Machine Learning}{38}{subsubsection.21.1.4}%
-\contentsline {section}{\numberline {22}Wednesday 11/13/2024}{39}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Sample Average Approximation}{39}{subsection.22.1}%
-\contentsline {subsubsection}{\numberline {22.1.1}Monte Carlo Newsvendor}{39}{subsubsection.22.1.1}%
-\contentsline {subsubsection}{\numberline {22.1.2}Monte Carlo Portfolio}{39}{subsubsection.22.1.2}%
-\contentsline {subsubsection}{\numberline {22.1.3}Monte Carlo Linear Regression}{40}{subsubsection.22.1.3}%
-\contentsline {subsection}{\numberline {22.2}Stochastic Approximation}{40}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Monday 11/18/2024}{41}{section.23}%
-\contentsline {subsection}{\numberline {23.1}Machine Learning Interpretations}{41}{subsection.23.1}%
-\contentsline {subsubsection}{\numberline {23.1.1}Taylor Expansion}{41}{subsubsection.23.1.1}%
-\contentsline {subsubsection}{\numberline {23.1.2}Activation Functions and Neural Networks}{41}{subsubsection.23.1.2}%
+\contentsline {section}{\numberline {1}Wednesday 08/28/2024}{5}{section.1}%
+\contentsline {section}{\numberline {2}Friday 08/30/2024}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Complexity Introduction}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}P, NP, NP-hard}{6}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Wednesday 09/04/2024}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}P, NP, NP-complete, and NP-hard}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Turing machine}{7}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}P-problem}{8}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}NP-complete}{8}{subsubsection.3.1.3}%
+\contentsline {section}{\numberline {4}Friday 09/06/2024}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}NP-hard}{8}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Definitions}{8}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Quadratic problem}{9}{subsubsection.4.1.2}%
+\contentsline {section}{\numberline {5}Monday 09/09/2024}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Nonlinear Programming Basic Concepts}{10}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Nonlinear problem formulation}{10}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Global and local solutions definitions}{10}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Necessary conditions of optimality}{10}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Gradients}{10}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Examples}{11}{subsubsection.5.2.2}%
+\contentsline {section}{\numberline {6}Wednesday 09/11/2024}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Nonlinear programming Part II}{12}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Problem formulation}{12}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Gradient descent intro}{14}{subsubsection.6.1.2}%
+\contentsline {section}{\numberline {7}Friday 09/13/2024}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Review}{15}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}What is an Inner Product}{15}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Understanding $g(x^*)=0$}{15}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Gradient bowl}{15}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Adding another constraint}{15}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Finding optimality conditions}{17}{subsubsection.7.2.2}%
+\contentsline {section}{\numberline {8}Monday 09/16/2024}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Review}{18}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Problem formulation for multiple constraints}{18}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Optimality}{18}{subsubsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.2}Active constraints}{18}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Wednesday 09/18/2024}{20}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Multiple Constraints}{20}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Inactive constraints}{20}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Karush-Kahn-Tucker Conditions}{20}{subsubsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.2}Adding an equality constraint}{20}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}KKT Conditions General Case}{21}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}KKT Solutions example}{21}{subsubsection.9.3.1}%
+\contentsline {section}{\numberline {10}Monday 09/23/2024}{22}{section.10}%
+\contentsline {subsection}{\numberline {10.1}KKT Condition qualification}{22}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Adding regularity condition}{22}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Fritz John conditions}{23}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}NLP: Part III}{23}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Monday 09/30/2024}{24}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Review}{24}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}Convex functions and sets}{24}{subsubsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.2}Convexity}{24}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Properties of a convex function}{24}{subsubsection.11.2.1}%
+\contentsline {subsubsection}{\numberline {11.2.2}Examples}{24}{subsubsection.11.2.2}%
+\contentsline {subsubsection}{\numberline {11.2.3}Linear regression}{25}{subsubsection.11.2.3}%
+\contentsline {section}{\numberline {12}Wednesday 10/02/2024}{25}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Convex Functions}{25}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}Verifying convexity}{25}{subsubsection.12.1.1}%
+\contentsline {subsubsection}{\numberline {12.1.2}composition rule for convexity}{26}{subsubsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.2}Convex Sets}{26}{subsection.12.2}%
+\contentsline {section}{\numberline {13}Friday 10/04/2024}{26}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Preserving Convexity}{26}{subsection.13.1}%
+\contentsline {subsubsection}{\numberline {13.1.1}Non-negative weighted sum}{26}{subsubsection.13.1.1}%
+\contentsline {subsubsection}{\numberline {13.1.2}affine composition}{26}{subsubsection.13.1.2}%
+\contentsline {subsection}{\numberline {13.2}Applications}{27}{subsection.13.2}%
+\contentsline {subsubsection}{\numberline {13.2.1}Application 1: Upscaling images}{27}{subsubsection.13.2.1}%
+\contentsline {subsubsection}{\numberline {13.2.2}Radiotherapy treatment planning}{27}{subsubsection.13.2.2}%
+\contentsline {section}{\numberline {14}Monday 10/07/2024}{29}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Radiotherapy example}{29}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Big M}{29}{subsection.14.2}%
+\contentsline {section}{\numberline {15}Friday 10/11/2024}{30}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Chemotherapy formulation}{30}{subsection.15.1}%
+\contentsline {section}{\numberline {16}Monday 10/14/2024}{31}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Gradient Descent}{31}{subsection.16.1}%
+\contentsline {section}{\numberline {17}Wednesday 10/16/2024}{31}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Gradient descent review}{31}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Bisection method}{32}{subsection.17.2}%
+\contentsline {section}{\numberline {18}Monday 10/28/2024}{33}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Nesterov's optimal method}{33}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Alternative Gradient Descent}{33}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Newton's Method}{33}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}Zeroth-order methods}{33}{subsection.18.4}%
+\contentsline {section}{\numberline {19}Monday 11/04/2024}{35}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Optimization Algorithms for Unconstrained Problems 3}{35}{subsection.19.1}%
+\contentsline {subsubsection}{\numberline {19.1.1}Meta-Heuristics}{35}{subsubsection.19.1.1}%
+\contentsline {subsection}{\numberline {19.2}Optimization Algorithms for Constrained Problems}{35}{subsection.19.2}%
+\contentsline {subsubsection}{\numberline {19.2.1}Projection-based method}{35}{subsubsection.19.2.1}%
+\contentsline {section}{\numberline {20}Wednesday 11/06/2024}{35}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Projection-based Methods}{35}{subsection.20.1}%
+\contentsline {subsubsection}{\numberline {20.1.1}Mirror Descent}{35}{subsubsection.20.1.1}%
+\contentsline {subsubsection}{\numberline {20.1.2}Non-negative set}{36}{subsubsection.20.1.2}%
+\contentsline {subsubsection}{\numberline {20.1.3}Upper/Lower bounds}{36}{subsubsection.20.1.3}%
+\contentsline {subsubsection}{\numberline {20.1.4}Euclidean ball}{36}{subsubsection.20.1.4}%
+\contentsline {section}{\numberline {21}Friday 11/08/2024}{37}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Stochastic Programming: Solutions Methods}{37}{subsection.21.1}%
+\contentsline {subsubsection}{\numberline {21.1.1}Newsvendor Problem}{37}{subsubsection.21.1.1}%
+\contentsline {subsubsection}{\numberline {21.1.2}General Case}{38}{subsubsection.21.1.2}%
+\contentsline {subsubsection}{\numberline {21.1.3}Portfolio Optimization}{38}{subsubsection.21.1.3}%
+\contentsline {subsubsection}{\numberline {21.1.4}Stochastic Programming and Machine Learning}{39}{subsubsection.21.1.4}%
+\contentsline {section}{\numberline {22}Wednesday 11/13/2024}{40}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Sample Average Approximation}{40}{subsection.22.1}%
+\contentsline {subsubsection}{\numberline {22.1.1}Monte Carlo Newsvendor}{40}{subsubsection.22.1.1}%
+\contentsline {subsubsection}{\numberline {22.1.2}Monte Carlo Portfolio}{40}{subsubsection.22.1.2}%
+\contentsline {subsubsection}{\numberline {22.1.3}Monte Carlo Linear Regression}{41}{subsubsection.22.1.3}%
+\contentsline {subsection}{\numberline {22.2}Stochastic Approximation}{41}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Monday 11/18/2024}{42}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Machine Learning Interpretations}{42}{subsection.23.1}%
+\contentsline {subsubsection}{\numberline {23.1.1}Taylor Expansion}{42}{subsubsection.23.1.1}%
+\contentsline {subsubsection}{\numberline {23.1.2}Activation Functions and Neural Networks}{42}{subsubsection.23.1.2}%
+\contentsline {section}{\numberline {24}Building a Neural Network From Scratch}{43}{section.24}%
+\contentsline {subsection}{\numberline {24.1}MNIST Dataset}{43}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}Neural Net Math}{43}{subsection.24.2}%
+\contentsline {subsubsection}{\numberline {24.2.1}Forward Propagation}{43}{subsubsection.24.2.1}%
+\contentsline {subsubsection}{\numberline {24.2.2}Backward Propagation}{44}{subsubsection.24.2.2}%
+\contentsline {subsubsection}{\numberline {24.2.3}Updates}{44}{subsubsection.24.2.3}%
