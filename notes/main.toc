@@ -107,9 +107,16 @@
 \contentsline {subsection}{\numberline {23.1}Machine Learning Interpretations}{42}{subsection.23.1}%
 \contentsline {subsubsection}{\numberline {23.1.1}Taylor Expansion}{42}{subsubsection.23.1.1}%
 \contentsline {subsubsection}{\numberline {23.1.2}Activation Functions and Neural Networks}{42}{subsubsection.23.1.2}%
-\contentsline {section}{\numberline {24}Additional Info: Building a Neural Network From Scratch}{43}{section.24}%
-\contentsline {subsection}{\numberline {24.1}MNIST Dataset}{43}{subsection.24.1}%
-\contentsline {subsection}{\numberline {24.2}Neural Net Math}{43}{subsection.24.2}%
-\contentsline {subsubsection}{\numberline {24.2.1}Forward Propagation}{43}{subsubsection.24.2.1}%
-\contentsline {subsubsection}{\numberline {24.2.2}Backward Propagation}{44}{subsubsection.24.2.2}%
-\contentsline {subsubsection}{\numberline {24.2.3}Updates}{44}{subsubsection.24.2.3}%
+\contentsline {section}{\numberline {24}Friday 11/22/2024}{42}{section.24}%
+\contentsline {subsection}{\numberline {24.1}Multi-stage prolems}{42}{subsection.24.1}%
+\contentsline {subsubsection}{\numberline {24.1.1}Two-stage newsvendor}{42}{subsubsection.24.1.1}%
+\contentsline {subsubsection}{\numberline {24.1.2}Principal of optimality}{43}{subsubsection.24.1.2}%
+\contentsline {subsection}{\numberline {24.2}End-of-Semester Review}{43}{subsection.24.2}%
+\contentsline {subsubsection}{\numberline {24.2.1}Penalty and Barrier function review}{43}{subsubsection.24.2.1}%
+\contentsline {subsubsection}{\numberline {24.2.2}Zeroth-order method}{43}{subsubsection.24.2.2}%
+\contentsline {section}{\numberline {25}Additional Info: Building a Neural Network From Scratch}{44}{section.25}%
+\contentsline {subsection}{\numberline {25.1}MNIST Dataset}{44}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Neural Net Math}{44}{subsection.25.2}%
+\contentsline {subsubsection}{\numberline {25.2.1}Forward Propagation}{44}{subsubsection.25.2.1}%
+\contentsline {subsubsection}{\numberline {25.2.2}Backward Propagation}{45}{subsubsection.25.2.2}%
+\contentsline {subsubsection}{\numberline {25.2.3}Updates}{45}{subsubsection.25.2.3}%

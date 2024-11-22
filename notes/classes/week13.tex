@@ -11,3 +11,55 @@ We can approximate functions with taylor expansions. However, activation functio
   \Phi(x) = Z \max \{ yx,0  \} 
 \end{equation}
 can represent a wide variety of non-linear functions. These can be combined together with random initialization of each $y$ and $Z$.
+
+\section{Friday 11/22/2024}
+\subsection{Multi-stage prolems}
+\subsubsection{Two-stage newsvendor}
+\begin{itemize}
+  \item $\xi_1 + \xi_2$: Uncertain daily demand for a daily newspaper, with $\xi_1$ corresponding to the morning demand and $\xi_2$ corresponding to the afternoon demand.
+  \item $x_1 + x_2$: Decision about the quantity of newspapers to be purchased in the morning and the afternoon
+  \item $c$: Cost to be paid by the newsvendor for one newspaper at the beginning of the day
+  \item $s$: Selling price for one newspaper
+  \item $r=0$: Return price for one unsold newspaper at the end of the day.
+\end{itemize}
+
+Afternoon equation dependent on demand and quantity purchased during afternoon
+\begin{equation}
+  Q(x_1, \xi_1) := \max_{x_2 \geq 0} s \mathbb{E}_{\xi_2}[\min\{ x_2 + \max\{x_1 - \xi_1, 0\}\}| \xi_1] - c x_2
+\end{equation}
+
+Optimizing over the whole day 
+\begin{equation}
+  \max_{x_1 \geq 0} \mathbb{E}_{\xi_1} [s \min\{x_1, \xi_1\} + Q(x_1, \xi_1) - cx_1]
+\end{equation}
+
+In the likely event we do not know the distribution parameters, we can use sample average approximation and evaluate the below equations
+
+\begin{equation}
+  Q_N(x_1, \xi_1) := \max_{x_2 \geq 0} \frac{1}{N} \sum_{j=1}^{N} q(x_1,x_2,\xi_{1,j}, \xi_{2,j})
+\end{equation}
+This equation above does not take into account the fact that the afternoon demand depends on the morning demand. Therefore, it must be altered to incorporate conditional sampling. We want to sample the afternoon demand around multiple samples of the morning demand. We pool morning demands that are close to each other and find how the afternoon demands deviate from each other. This is the way that we estimate the conditional probability of the afternoon on the morning.
+
+\subsubsection{Principal of optimality}
+An optimal policy has the property that, regardless of the previous state and previous decisions are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the previous decisions.
+
+\subsection{End-of-Semester Review}
+\begin{itemize}
+  \item Complexity classes
+  \item Nonlinear optimization
+  \item Stochastic optimization
+  \item Dynamic optimization
+\end{itemize}
+\subsubsection{Penalty and Barrier function review}
+Penalty functions are a way of applying sensitivity to the constraints by incorporating them into the objective function as a cost. Effectively, it is possible for us to go into the infeasible region but we pay a cost for doing so.
+\\ 
+Barrier functions are another way to augment the objective function. The goal with a barrier function is to drastically increase the value as the original objective function approaches the infeasible region. For this to work, certain algorithms need to be used to avoid numerical stability.
+
+\subsubsection{Zeroth-order method}
+There are scenarios in which the gradient can't be evaluated since the function isn't known. Instead, the gradient is approximated by 
+\begin{equation}
+  \nabla f(x) \approx \frac{f(x+\delta u) - f(x)}{\delta} u
+\end{equation}
+Where $\delta$ is moved around and changed as a hyperparameter and $u$ is a standard gaussian.
+\\
+Zeroth-order methods can be effective when the cost of evaluating the derivative is more expensive than the evaluation of the function itself.
